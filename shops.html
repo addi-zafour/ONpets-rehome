@@ -40,7 +40,9 @@
  <div style="display:flex;gap:10px;overflow-x:auto; padding:0 15px 15px;">
 
                 <div onclick="filterShop('Toys')" style="min-width:110px; text-align:center; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1); cursor:pointer;">
-<img src="bone-rubber.jpg" style="width:100%; height:80px; object-fit:cover; display:block;">
+<a href="bone-rubber.jpg" target="_blank">
+    <img src="bone-rubber.jpg" style="width:100px; height:100px; object-fit:cover; border-radius:10px;">
+</a>
 <p style="margin:8px 0; font-weight:bold;">Toys</p>
                 </div>
 
@@ -123,10 +125,5 @@
                         }
                 
              </script>
-    <div id="fullImageBox" onclick="closeFull()" style="display:none; position:fixed; top:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; text-align:center;">
-                    <span style="color:white; font-size:30px; position:absolute; top:10px; right:20px; cursor:pointer;">x Close</span>
-                    <img id="fullImage" src="" style="max-width:95%; max-height:85%; margin-top:50px; border-radius:12px;">
-                    <p style="color:white;">Tap anywhere to close</p>
-                           </div>
     </body>
 </html>
