@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>Pet Shops - ONpets Zimbabwe</tittle>
+    </head>
+    <body style="font-family:Arial; margin:0; background:#fff8f0">
+
+        <!--nav-->
+        <div style="background:#222; padding:12px; text-align:center;">
+            <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; margin:0 8px;">&#127968 Home</a>
+            <a href="groomers.html" style="color:white; text-decoration:none; font-weight:bold; margin:0 8px;">Find Groomers</a>
+            <a href="adopt.html" style="color:white; text-decoration:none; font-weight:bold; margin:0 8px">Adopt &#10084</a>
+            <a href="shops.html" style="color:#ffcc00; text-decoration:none; font-weight:bold; margin:0 8px;">Shops &#128722</a> 
+        </div>
+
+        <div style="text-align:center; padding:20px 15px;">
+            <h1 style="margin:5px 0;">&#128772 Pet Shops in Zimbabwe</h1>
+            <p style="color:#555">toys, leashes, grooming kits - order direct from local shops via WhatsApp.</p>
+        </div>
+
+        <!--filters
+        <div style="text-align:center; padding:0 15px 15px;">
+            <button onclick="filterShop('All')" style="padding:10px 15px; border-radius:20px; border:none; background:#222; color:white; font-weight:bold; margin:3px;">All</button>
+           <button onclick="filterShop('Food')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px">Food</button>
+            <button onclick="filterShop('Toys')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px;">Toys</button>
+            <button onclick="filterShop('Leashes')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px">Leashes</button>
+            <button onclick="filterShop('Health')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px">Health</button>
+            </div>
+        </div>-->
+
+
+        <!--shop 1-->
+        <div style="background:white; margin:0 15px 20px; padding:15px; border-radius:15px; box-shadow:0 2px 10px rgba(0,0,0,0.1);">
+            <h2 style="margin:0;">&#128062 Sir K9 Kennels <span style="font-size:12px; background:#ffcc00; padding:3px 8px; border-radius:20px;"> Harare</span> <span style="font-size:12px; background:#eee; padding:3px 8px; border-radius:20px;">24/7</span></h2>
+            <p style="color:#666; margin:5px 0;"> Trusted Shop | Delivery in Harare | &#128222 263783009686</p>
+            <p style="background:#fff3cd; padding:8px; border-radius:8px; font-size:13px;"><b>SIR K9 KENNELS</b> from our family to yours</p>
+
+ <div style="display:flex;gap:10px;overflow-x:auto; padding:0 15px 15px;">
+
+                <div onclick="filterShop('Toys')" style="min-width:110px; text-align:center; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1); cursor:pointer;">
+<img src="bone-rubber.jpg" style="width:100%; height:80px; object-fit:cover; display:block;">
+<p style="margin:8px 0; font-weight:bold;">Toys</p>
+                </div>
+
+                 <div onclick="filterShop('Leashes')" style="min-width:110px; text-align:center; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1); cursor:pointer;">
+<img src="chest-harness.jpg" style="width:100%; height:80px; object-fit:cover; display:block;">
+<p style="margin:8px 0; font-weight:bold;"> Leashes</p>
+                </div>
+
+                      <div onclick="filterShop('Health')" style="min-width:110px; text-align:center; background:white; border-radius:12px; overflow:hidden; box-shadow:0 2px 8px rgba(0,0,0,0.1); cursor:pointer;">
+<img src="pee-pads.jpg" style="width:100%; height:80px; object-fit:cover; display:block;">
+<p style="margin:8px 0; font-weight:bold;">Health</p>
+                      </div>
+
+                
+                      </div>
+                
+            <!--catalogue inside shop
+            <div class="product" data-cat="Food" style="display:flex; gap:10px; border-bottom:1px solid #eee; padding:10px 0;">
+                <img src=""-->
+
+            </div>
+            </div>
+
+            <!--product 2-->
+            <div class="product" data-cat="Toys" style="display:flex; gap:10px; border-bottom:1px solid #eee; padding:10px 0;">
+                <img src="bone-rubber.jpg" onclick="openFull(this.src)" style="width:80px; height:80px; object-fit:cover; border-radius:10px; cursor:pointer;">
+                <div style="flex:1;">
+                    <b>Bone rubber toy</b><br>
+                    <span style="color:#666; font-size:13px;"> Toys | For dogs</span><br>
+                    <b style="color:#e65100;">$3 & $5</b> <span style="font-size:12px; background:#e8ffe8; padding:2px 6px; border-radius:10px;">In Stock</span><br>
+                    <a href="https://wa.me/263783009686?text=Hi!%20%20I%20want%20to%20order%20Bone%20rubber%20toy%20from%20ONpets" style="display:inline-block; background:#25d366; color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:bold; font-size:13px; margin-top:5px"> Order via WhatsApp</a>
+                    </div>
+                </div>
+                <!--product 3-->
+                <div class="product" data-cat="Leashes" style="display:flex; gap:10px; border-bottom:1px solid #eee; padding:10px 0;">
+                <img src="chest-harness.jpg" onclick="openFull(this.src)" style="width:80px; height:80px; object-fit:cover; border-radius:10px; cursor:pointer">
+                <div style="flex:1;">
+                    <b>chest strap harness</b><br>
+                    <span style="color:#666; font-size:13px;"> Leashes | chest strap harness</span><br>
+                    <b style="color:#e65100;">s:$12, m/l:$15, xl:$18</b> <span style="font-size:12px; background:#e8ffe8; padding:2px 6px; border-radius:10px;">In Stock</span><br>
+                    <a href="https://wa.me/263783009686?text=Hi!%20%20I%20want%20to%20order%20chest%20strap%20harness%20from%20ONpets" style="display:inline-block; background:#25d366; color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:bold; font-size:13px; margin-top:5px"> Order via WhatsApp</a>
+                    </div>
+                </div>
+                <!--product 4-->
+                <div class="product" data-cat="Health" style="display:flex; gap:10px; border-bottom:1px solid #eee; padding:10px 0;">
+                <img src="pee-pads.jpg" onclick="openFull(this.src)" style="width:80px; height:80px; object-fit:cover; border-radius:10px;">
+                <div style="flex:1;">
+                    <b>pee pads</b><br>
+                    <span style="color:#666; font-size:13px;"> Health | disposable pee pads</span><br>
+                    <b style="color:#e65100;">$10</b> <span style="font-size:12px; background:#e8ffe8; padding:2px 6px; border-radius:10px;">In Stock</span><br>
+                    <a href="https://wa.me/263783009686?text=Hi!%20%20I%20want%20to%20order%20Bone%20rubber%20toy%20from%20ONpets" style="display:inline-block; background:#25d366; color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:bold; font-size:13px; margin-top:5px"> Order via WhatsApp</a>
+                    </div>
+
+                       
+            </div>
+
+            <!--join as shop-->
+            <div style="background:#222; color:white; padding:20px 15px; text-align:center;">
+                <h3 style="margin-top:0;">Are You a Pet Shop?</h3>
+                <p>List your shop + full catalogue on ONpets. Customers order via WhatsApp direct to you.</p>
+                <p style="color:#ffcc00;">Listing: FREE</p>
+                <a href="https://wa.me/263713969815?text=Hi%20ONpets!%20I%20have%20a%20pet%20shop%20and%20want%20to%20join" style="display:inline-block; background:#ffcc00; color:#222; padding:12px 20px; border-radius:10px; text-decoration:none; font-weight:bold;">&#128722 Join as Shop</a>
+            </div>
+             <script>
+                function filterShop(cat){
+                    let items=document.querySelectorAll('.product');
+                    items.forEach(p => {
+                        if(cat==='all' || p.dataset.cat===cat){p.style.display='flex'; } else {p.style.display='none'; }
+                    
+                    })
+                }
+            </script>
+            <script>
+                        function openFull(src){
+                            document.getElementById('fullImg').src=src;
+                            document.getElementById('fullImgBox').style.display = 'block';
+                        }
+                        function closeFull(){
+                            document.getElementById('fullImgBox').style.display = 'none';
+                        }
+                
+             </script>
+    <div id="fullImageBox" onclick="closeFull()" style="display:none; position:fixed; top:0; width:100%; height:100%; background:rgba(0,0,0,0.9); z-index:9999; text-align:center;">
+                    <span style="color:white; font-size:30px; position:absolute; top:10px; right:20px; cursor:pointer;">x Close</span>
+                    <img id="fullImage" src="" style="max-width:95%; max-height:85%; margin-top:50px; border-radius:12px;">
+                    <p style="color:white;">Tap anywhere to close</p>
+                           </div>
+    </body>
+</html>
