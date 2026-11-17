@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <tittle>Adopt a Dog - ONpets Zimbabwe</tittle>
+    </head>
+    <body style="font-family:Arial; margin:0; background:#fff8f0;">
+        <!--nav bar-->
+
+    <div style="background:#222; padding:12px; text-align:center;">
+        <a href="index.html" style="color:white; text-decoration:none; font-weight:bold; margin:0 10px;">Home</a>
+        <a href="groomers.html" style="color:white; text-decoration:none; font-weight:bold; margin:0 10px;">Find Groomers</a>
+        <a href="adopt.html" style="color:#ffcc00; text-decoration:none; font-weight:bold; margin:0 10px;">Adopt</a>
+        <a href="shops.html" style="color:#ffcc00; text-decoration:none; font-weight:bold; margin:0 8px;">Shops &#128722</a>
+         <a href="vets.html" style="color:#ffcc00; text-decoration:none; font-weight:bold; margin:0 7px;">Vets &#129658</a>
+    </div>
+
+    <!--header-->
+    <div style="text-align:center; padding:20px 15px;">
+        <h1 style="margin:5px 0">&#128054Adopt a Dog, Save a Life&#10084</h1>
+        <p style="color:#555; margin:5px 0;">Dogs waiting for homes in Zimbabwe - via our trusted shelter partners.</p>
+        <p style="background:#e8ffe8; padding:10px; border-radius:10px; display:inline-block;"><b> Adoption is FREE to list. Shelter decides who adopts.</b><br>ONpets never takes adoption money.</p>
+    </div>
+    <!--how it works-->
+    <div style="background:white; margin:0 15px; padding:15px; border-radius:12px; box-shadow:0 2px 8px rgba(0,0,0,0.1);">
+        <h3 style="margin-top:0;">How Adoption Works:</h3>
+        <p> Find a dog you love below<br>
+         Click <b> "Adopt via Shelter"</b> - WhatsApp goes DIRECT to the shelter<br>
+         Shelter does home check + approves you<br>
+         You pick up your new best friend <br>
+         ONpets offers you <b>First Groom / First walk</b></p>
+    </div>
+
+<!--filter buttons-->
+<div style="text-align:center; padding:15px;">
+    <button onclick="filterDogs('all')" style="padding:10px 15px; border-radius:20px; border:none; background:#222;color:white; font-weight:bold; margin:3px;">All Dogs</button>
+    <button onclick="filterDogs('Mutare')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px;">Mutare</button>
+    <button onclick="filterDogs('Harare')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px;">Harare</button>
+    <button onclick="filterDogs('puppy')" style="padding:10px 15px; border-radius:20px; border:1px solid #222; background:white; font-weight:bold; margin:3px">Puppies</button>
+</div>
+<!--dogs list-->
+<div id="dogs" style="padding:0 15px 20px;">
+    <!--copy this block for each new dog-->
+    <div class="dog-card" data-city="Mutare" data-type="Puppy" style="background:white; border-radius:15px; overflow:hidden; margin-bottom:20px; box-shadow:0 2px 10pxrgba(0,0,0,0.1);">
+        <img src="champion.jpg" style="width:100%; display:block;" alt="Dog for adoption">
+        <div style="padding:15px;">
+            <h2 style="margin:0;">Champs <span style="font-size:13px; background:#ffcc00; padding:3px 8px; border-radius:20px;">Mutare</span> <span style="font-size:12px; background:#eee; padding:3px 8px; border-radius:20px;">Example</span></h2>
+            <p style="color:#666; margin:5px 0;"> female . 8month .medium . mixed breed</p>
+            <p style="background:fff3cd; padding:8px; border-radius:8px; font-size:13px;">This is an EXAMPLE card.</b> Real dogs from SPCA Mutare coming soon. Your shelter dog could look like this!</p>
+            <p><b>Story:</b>Found by dog lovers in Rusape. Very loving, great with kids. Needs a safe home.</p>
+            <p> Vaccinated ; Good with kids ; Good with cats</p>
+            <p><b>Shelter:</b> ---</p>
+            <a href="https://07xxxxxxxx?text=Hi%20SPCA%20Mutare!%20I$20want%20to%20adopt%20Champs%20from%20ONpets" style="display:block; background:#25d366; color:white; text-align:center; padding:14px; border-radius:10px; text-decoration:none; font-weight:bold;">See How Adoption Works</a>
+            <p style="text-align:center; font-size:13px; color:#888; margin:8px 0 0;">New owner gets First Groom / walk</p>
+        </div>
+    </div>
+
+ <!--div class="dog-card" data-city="Harare" data-type="Puppy" style="background:white; border-radius:15px; overflow:hidden; margin-bottom:20px; box-shadow:0 2px 10pxrgba(0,0,0,0.1);">
+        <img src="https://via.placeholder.com/600*400?text=Photo+Coming+Soon" style="width:100%; display:block;" alt="Dog for adoption">
+        <div style="padding:15px;">
+            <h2 style="margin:0;">Champs <span style="font-size:13px; background:#ffcc00; padding:3px 8px; border-radius:20px;">Harare</span></h2>
+            <p style="color:#666; margin:5px 0;"> female . 8month .medium . mixed breed</p>
+            <p style="background:#fff3cd; padding:8px;border-radius:8px; font-size:13px">THis is an EXAMPLE card.</b> Real dogs from SPCA Harare coming soon.</p>
+            <p><b>Story:</b>Found abandoned in Mutare. Very loving, great with kids. Needs a safe home.</p>
+            <p> Vaccinated ; Good with kids ; Good with cats</p>
+            <p><b>Shelter:</b> SPCA Harare</p>
+            <a href="https://07xxxxxxxx?text=Hi%20SPCA%20Mutare!%20I$20want%20to%20adopt%20Champs%20from%20ONpets" style="display:block; background:#25d366; color:white; text-align:center; padding:14px; border-radius:10px; text-decoration:none; font-weight:bold;">See How Adoption Works</a>
+            <p style="text-align:center; font-size:13px; color:#888; margin:8px 0 0;">New owner gets First Groom / walk</p>-->
+        </div>
+    </div>
+    
+</div>
+<!--shelter partners-->
+<div style="background:#222; color:white; padding:20px 15px; text-align:center;">
+    <h3 style="margin-top:0;">Our Shelter Partners</h3>
+    <p> shelter---<br>
+     Harare<br>
+coming soon</p>
+<p style="color:#ffcc00; font-size:14px;">Want your shelter listed? WhatsApp ONpets</p>
+<a href="https://wa.me/263713969815?text=Hi%20ONpets!%20I%20am%20a%20shelter%20and%20want%20list%20dogs" style="display:inline-block; background:#ffcc00; color:#222; padding:12px 20px; border-radius:10px; text-decoration:none; font-weight:bold;">Shelter? Join ONpets</a>
+</div> 
+<!--footer-->
+<div style="text-align:center; padding:15px; color:#888; font-size:13px;">
+    ONpets Zimbabwe . Rusape . Marondera . Mutare . Harare<br>
+    <a href="index.html">Home</a> | <a href="groomers.html">Find Groomers</a>
+</div>
+
+<script>
+function filterDogs(city){
+        let cards=document.querySelectionAll('.dog-card');
+        cards.forEach(c=> {
+            if(city==='all' || c.dataset.city===city || c.dataset.type===city){
+                c.style.display='block';
+            } else {
+                c.style.display='none';
+            }
+        });
+    }
+</script>
+<script data-goatcounter="https://onpets-rehome.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+    </body>
+</html>
